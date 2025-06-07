@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addItem } from '../path_to_your_redux_actions'; // <-- adjust this import path
+import { addItem } from './CartSlice';
 import './ProductList.css';
 import CartItem from './CartItem';
 
